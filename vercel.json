@@ -1,8 +1,5 @@
 {
     "version": 2,
-    "buildCommand": "npm run build",
-    "devCommand": "npm run dev",
-    "installCommand": "npm install",
     "framework": "nextjs",
     "builds": [
       {
@@ -10,6 +7,7 @@
         "use": "@vercel/next"
       }
     ],
+     
     "headers": [
       {
         "source": "/api/(.*)",
@@ -65,4 +63,5 @@
     "cleanUrls": true,
     "trailingSlash": false,
     "public": true
+     
   } 
